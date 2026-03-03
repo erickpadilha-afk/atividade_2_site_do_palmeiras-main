@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site do Palmeiras</title>
+</head>
+<body>
+    <header>
+
+        <div id="navbar">
+            
+            <a href="https://www.palmeiras.com.br/home/"> 
+                <img id="icon" src="assets/icon.png" alt="Escudo do Palmeiras">
+            </a>
+
+            <h2> Site de Notícias do verdão</h2>
+
+            <ul id="links">
+                <li>Arquivos</li>
+                <li>Clube</li>
+                <li>Sair</li>
+            </ul>
+        </div>
+
+    </header>
+    <main>
+
+        <div class="barra-sticky">
+            <a class="barra-link" href="https://www.palmeiras.com.br/elenco/">|Elenco| </a>
+            <a class="barra-link" href="https://www.palmeiras.com.br/futebol-feminino/">|futebol feminino| </a>
+            <a class="barra-link" href="https://www.palmeiras.com.br/home/">|site oficial| </a>
+        </div>
+        
+        <section class="noticias">
+
+            <div class="noticia">
+                <img class="img_noticia" src="assets/abel.jpg" alt="Abel Ferreira">
+                <h3>Palmeiras ganha sem dar chutão</h3>
+                <p>Um milagre!</p>
+            </div>
+            
+            <div class="noticia">
+                <img class="img_noticia" src="assets/vitor-roque.jfif" alt="Vitor Roque tigrinho">
+                <h3>Tigrinho tenta driblar toca para<br>alguém ao invés de ficar driblando</h3>
+                <p>Evolução🐯</p>
+            </div>
+
+        </section>
+
+        <section class="posicao">
+            <h2>position: static</h2>
+            <div class="pos-box pos-static">
+                Sou uma static padrão. Valores top e left não mudam minha posição
+            </div>
+        </section>
+
+        <section class="posicao">
+            <h2>position: relative</h2>
+
+            <div class="pos-box">Caixa normal</div>
+
+            <div class="pos-box pos-relative">Caixa anormal: ela se move mas continua tendo espaço reservado</div>
+            
+            <div class="pos-box">Caixa normal</div>
+        </section>
+
+        <section class="posicao">
+            <h2>position:absolute</h2>
+
+            <div class="pai">
+                pai(relativo)
+                <div class="filho">Filho</div>
+            </div>
+
+            <p class="pos-texto">O filho não empurra nada, ele fica por cima, colado no pai.</p>
+        </section>
+    </main>
+    <footer>
+        <p> Todos os direitos reservados ao professor Ícaro. </p>
+    </footer>
+</body>
+</html>
